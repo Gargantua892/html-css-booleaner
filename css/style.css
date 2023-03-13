@@ -1,4 +1,4 @@
-/* CSS reset */
+
 header{
     background-image: url('../img/pattern.png');
     background-color: #4ca2ff;
@@ -15,3 +15,26 @@ header img{
 .highlight{
     background-color: yellow;
 }
+
+/* stile tabella */
+th{
+    background-color: #19abe6;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+}
+
+table td{
+    width: 20%;
+}
+
+table td:last-child{
+    width: 60%;
+}
+
+.different-bkg{
+    background-color: #b2e6f3;
+}
+
+
+/* fine stile tabella */
