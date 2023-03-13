@@ -1,3 +1,7 @@
+h4{
+    color: grey;
+    margin-bottom: 8px;
+}
 
 header{
     background-image: url('../img/pattern.png');
@@ -17,6 +21,11 @@ header img{
 }
 
 /* stile tabella */
+
+table{
+    border-spacing: 0px;
+}
+
 th{
     background-color: #19abe6;
     color: #fff;
@@ -38,3 +47,8 @@ table td:last-child{
 
 
 /* fine stile tabella */
+
+#related-articles img{
+    display: block;
+    margin-bottom: 8px;
+}
