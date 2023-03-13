@@ -38,12 +38,14 @@ ul{
 
 /* fine meta articolo */
 
-header{
-    background-image: url('../img/pattern.png');
+header {
+    background-image: url(../img/pattern.png);
     background-color: #4ca2ff;
-    background-position: top center;
+    background-position: top;
+    background-position-y: -8;
+    background-size: 38%;
     padding-top: 36px;
-    padding-bottom:8px;
+    padding-bottom: 8px;
 }
 
 header img{
@@ -87,7 +89,20 @@ table td:last-child{
 
 /* fine stile tabella */
 
-#related-articles img{
-    display: block;
+#related-articles div{
     margin-bottom: 8px;
+    position: relative;
+}
+
+#related-articles div:after {
+    content: "Lorem ipsum dolor";
+    position: absolute;
+    display: block;
+    padding: 16px;
+    color: #fff;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-weight: 800;
 }
